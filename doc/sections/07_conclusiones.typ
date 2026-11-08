@@ -62,7 +62,8 @@ análisis numérico. Las conclusiones específicas son las siguientes.
   [*Reproducibilidad.* El código, las semillas, las tablas y las figuras se
     generan con `uv` y un único comando. Las pruebas unitarias cubren los
     módulos de combustible, terreno, AC, métricas y numerics. Todas las
-    referencias incluyen DOI verificado y acceso abierto.],
+    referencias incluyen DOI verificado y, cuando existe, versión de acceso
+    abierto.],
 )
 
 La hipótesis H1 se confirma: la ROS es monótona con el viento y la pendiente y

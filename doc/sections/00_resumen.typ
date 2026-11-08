@@ -40,7 +40,7 @@ $10^{-11}$ en el problema de N cuerpos; y (vi) el modelo se aplicó a dos
 eventos reales: Acos (Cusco, 2025), con un error de área del $3.6$%, y
 Little Giant (Washington, 2026), con un IoU de $0.62$ en una subventana. El
 código, las semillas y las tablas están disponibles para su reproducción con
-`uv`, y todas las referencias incluyen DOI verificado y acceso abierto.
+`uv`; todas las referencias incluyen DOI verificado y, cuando existe, versión de acceso abierto.
 
 #v(0.6em)
 *Palabras clave:* autómatas celulares, incendios forestales, Rothermel,

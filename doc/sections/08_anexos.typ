@@ -11,9 +11,10 @@ campaña completa, las tablas y las figuras se regeneran mediante un comando
 investigación, el código no se transcribe en el texto: se remite al
 repositorio y a su documentación.
 
-Las referencias se seleccionaron entre fuentes con versión de acceso abierto
-verificada (informes públicos, revistas de acceso abierto o preprints); no se
-incluyen artículos que requieran pago.
+Se priorizaron fuentes con versión de acceso abierto verificada (informes
+públicos, revistas de acceso abierto o preprints). Por exigencia del alcance se
+incluyen tres referencias fundacionales cuya versión editorial es de pago
+(Karafyllidis, Alexandridis y Hayakawa), identificadas por su DOI.
 
 Las semillas utilizadas son: escenario base $42$; ensemble $7$ con miembros
 $7000, 7001, dots$; percolación $123$ con realizaciones $123 + 1000k$;
