@@ -16,6 +16,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BIB = ROOT / "doc" / "refs.bib"
 EMAIL = "fireca.tif@unsa.edu.pe"
+# Referencias fundacionales exigidas por el alcance, aunque su versión
+# editorial sea de pago.
+ALLOWED_PAYWALLED = {"karafyllidis1997", "alexandridis2008", "hayakawa2011"}
 
 
 def head_ok(url: str) -> bool:
@@ -58,13 +61,18 @@ def main() -> int:
                 is_oa, status = False, "unknown"
         free_url_ok = bool(url) and head_ok(url)
         ok = is_oa or free_url_ok
-        if not ok:
+        allowed = key in ALLOWED_PAYWALLED
+        if not ok and not allowed:
             failures += 1
+        label = "OK  " if ok else ("EXC " if allowed else "FAIL")
         print(
-            f"{'OK  ' if ok else 'FAIL'} {key:22s} {doi:38s} "
+            f"{label} {key:22s} {doi:38s} "
             f"unpaywall={is_oa} ({status}) url_ok={free_url_ok}"
         )
-    print(f"\n{len(entries)} referencias, {failures} sin acceso abierto verificado.")
+    print(
+        f"\n{len(entries)} referencias, {failures} sin acceso abierto "
+        f"({len(ALLOWED_PAYWALLED)} excepciones obligatorias)."
+    )
     return 1 if failures else 0
 
 

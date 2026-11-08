@@ -12,5 +12,8 @@ WARN 403  andrianarivony2024     10.3390/fire7120482
 WARN 403  hayajneh2025           10.3390/fire8060217
 WARN 403  einstein1905           10.1002/andp.19053220806
 OK   200  newman2000             10.48550/arXiv.cond-mat/0005264  -> https://arxiv.org/abs/cond-mat/0005264
+OK   200  karafyllidis1997       10.1016/S0304-3800(96)01942-4  -> https://linkinghub.elsevier.com/retrieve/pii/S0304380096019424
+OK   200  alexandridis2008       10.1016/j.amc.2008.06.046  -> https://linkinghub.elsevier.com/retrieve/pii/S0096300308004943
+OK   200  hayakawa2011           10.20619/jcombsj.53.165_153  -> https://www.jstage.jst.go.jp/article/jcombsj/53/165/53_153/_article/-char/ja/
 
-14 DOI revisados, 0 fallos de resolución.
+17 DOI revisados, 0 fallos de resolución.
