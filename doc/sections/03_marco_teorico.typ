@@ -240,9 +240,9 @@ con $Z_n ~ cal(N)(0,1)$. Tiene orden fuerte $1/2$ y orden
 débil $1$. Para el movimiento browniano libre, $d X = sigma d W$, la solución es
 $X_t ~ cal(N)(0, sigma^2 t)$ y el desplazamiento cuadrático medio es
 $ "MSD"(t) = ⟨ (X_t-X_0)^2 ⟩ = sigma^2 t. $
-El movimiento browniano fue explicado por Einstein en 1905 como consecuencia
-del movimiento térmico de las moléculas @einstein1905. La densidad de
-probabilidad satisface la ecuación de Fokker--Planck
+El movimiento browniano se describe como consecuencia del movimiento térmico
+de las moléculas. La densidad de probabilidad satisface la ecuación de
+Fokker--Planck
 $ frac(partial p, partial t) = -frac(partial, partial x)(a p) + frac(1,2) frac(partial^2, partial x^2)(b^2 p), $
 cuya solución fundamental para deriva y difusión constantes es una gaussiana.
 En este trabajo se usa esta solución para verificar el generador

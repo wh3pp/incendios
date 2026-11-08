@@ -10,10 +10,9 @@ OK   karakonstantis2026a    10.3390/fire9030108                    unpaywall=Tru
 OK   karakonstantis2026b    10.3390/info17030289                   unpaywall=True (gold) url_ok=False
 OK   andrianarivony2024     10.3390/fire7120482                    unpaywall=True (gold) url_ok=False
 OK   hayajneh2025           10.3390/fire8060217                    unpaywall=True (gold) url_ok=False
-OK   einstein1905           10.1002/andp.19053220806               unpaywall=True (bronze) url_ok=False
 OK   newman2000             10.48550/arXiv.cond-mat/0005264        unpaywall=False (arxiv) url_ok=True
 EXC  karafyllidis1997       10.1016/S0304-3800(96)01942-4          unpaywall=False (closed) url_ok=False
 OK   alexandridis2008       10.1016/j.amc.2008.06.046              unpaywall=True (green) url_ok=False
 EXC  hayakawa2011           10.20619/jcombsj.53.165_153            unpaywall=False (unknown) url_ok=False
 
-17 referencias, 0 sin acceso abierto (3 excepciones obligatorias).
+16 referencias, 0 sin acceso abierto (3 excepciones obligatorias).

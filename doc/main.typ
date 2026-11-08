@@ -44,13 +44,11 @@
 #set list(marker: [--], indent: 0.5em)
 #set enum(indent: 0.5em)
 
-#include "sections/00_resumen_65.typ"
-
-#pagebreak()
 #outline(title: [Índice], indent: 2em)
 #pagebreak()
 #outline(title: [Índice de figuras y tablas], target: figure, indent: 1.5em)
 
+#pagebreak()
 #include "sections/01_introduccion.typ"
 #include "sections/02_estado_arte.typ"
 #include "sections/03_marco_teorico.typ"
