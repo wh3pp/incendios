@@ -44,7 +44,7 @@
 #set list(marker: [--], indent: 0.5em)
 #set enum(indent: 0.5em)
 
-#include "sections/00_resumen.typ"
+#include "sections/00_resumen_65.typ"
 
 #pagebreak()
 #outline(title: [Índice], indent: 2em)
@@ -55,11 +55,6 @@
 #include "sections/02_estado_arte.typ"
 #include "sections/03_marco_teorico.typ"
 #include "sections/04_metodologia.typ"
-#include "sections/05_resultados.typ"
-#include "sections/05b_casos.typ"
-#include "sections/06_discusion.typ"
-#include "sections/07_conclusiones.typ"
-#include "sections/08_anexos.typ"
 
 #pagebreak()
 #bibliography("refs.bib", style: "ieee", title: [Referencias bibliográficas])

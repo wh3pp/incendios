@@ -38,20 +38,24 @@ Los autómatas celulares son sistemas dinámicos discretos definidos por una
 retícula, un conjunto finito de estados, una vecindad y una regla de transición
 local. Su atractivo para el fuego radica en que reproducen frentes
 complejos a partir de reglas simples y permiten incorporar heterogeneidad
-espacial de forma natural. Los modelos pioneros almacenan combustible, estado
-de ignición y tiempo de residencia en cada celda, y hacen depender la
-propagación de la velocidad del viento y de la pendiente. Variantes posteriores
-incorporaron reglas probabilísticas, retículas hexagonales y fuentes locales
-aleatorizadas para representar la ignición por pavesas. La revisión de
-Karakonstantis y Xylomenos @karakonstantis2026a describe estos desarrollos y
-señala que la validación con eventos reales sigue siendo heterogénea.
+espacial de forma natural. Karafyllidis y Thanailakis @karafyllidis1997
+propusieron uno de los modelos pioneros: cada celda almacena combustible,
+estado de ignición y tiempo de residencia, y la propagación depende de la
+velocidad del viento y de la pendiente. Alexandridis et al. @alexandridis2008
+extendieron el enfoque con una regla probabilística y validaron la huella
+simulada del incendio de Spetses (1990) contra la observada. Variantes
+posteriores incorporaron retículas hexagonales y fuentes locales aleatorizadas
+para representar la ignición por pavesas.
 
-Los AC estocásticos con umbrales de percolación y estrategias de supresión
-sugieren que la probabilidad de propagación a gran escala está controlada por
-la conectividad del combustible, y que la supresión puede modelarse como una
+En el ámbito del control, Hayakawa @hayakawa2011 formuló AC estocásticos con
+umbrales de percolación y estrategias de supresión. Sus resultados sugieren que
+la probabilidad de propagación a gran escala está controlada por la
+conectividad del combustible, y que la supresión puede modelarse como una
 reducción local de la probabilidad de ignición. La combinación de AC con
 técnicas de aprendizaje automático es una línea reciente que anticipa el uso
-actual de emuladores y modelos diferenciables.
+actual de emuladores y modelos diferenciables. La revisión de Karakonstantis y
+Xylomenos @karakonstantis2026a describe estos desarrollos y señala que la
+validación con eventos reales sigue siendo heterogénea.
 
 La revisión más reciente de Karakonstantis y Xylomenos @karakonstantis2026a
 analiza los modelos bidimensionales de AC para incendios y señala tres
