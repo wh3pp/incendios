@@ -76,3 +76,17 @@ typst compile doc/main.typ doc/main.pdf
 ```
 
 El PDF compilado se encuentra en `doc/main.pdf`.
+
+## Versiones del documento
+
+- `main` / `entrega-final`: documento completo, con resultados, discusión,
+  conclusiones y anexos.
+- `entrega-65`: avance del 65 %, que termina en la metodología e incluye las
+  referencias obligatorias.
+
+Para cambiar de versión:
+
+```bash
+git switch main          # versión completa
+git switch entrega-65    # avance hasta metodología
+```
