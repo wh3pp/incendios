@@ -1,0 +1,3 @@
+modelo,area_media_ha,area_std_ha,cv_area,ros_medio_m_min,ros_std_m_min,lb_medio,fd_media,rugosidad_s
+Determinista,10.2775,0,0,42.237783,0,1.8683829,1.785764,135.91079
+Estocástico (ensemble),24.885234,0.76636826,0.030796104,35.33793,1.4371553,1.3372159,1.8213847,124.42167

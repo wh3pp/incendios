@@ -1,0 +1,3 @@
+caso,pais,inicio,area_observada_ha,area_oficial_ha,area_simulada_ha,error_area_rel,iou,ros_m_min,lb,fd,celda_m,dt_s,t_end_dias,fuente
+Incendio forestal de Acos (Mayuhuilca),Perú,2025-09-11 12:24,296.94977,300,307.58156,0.035803308,,10.355488,1.355099,1.806836,25.940273,20,4,"INDECI, Reporte Complementario N.º 9686 (15/09/2025)"
+Little Giant Fire,Estados Unidos,2026-07-15 00:00,1252.75,69975.004,1730.9772,0.38174197,0.61974429,0.097098706,1.1121654,1.9730567,27.788597,20,4,"WFIGS/NIFC, perímetro oficial 2026"

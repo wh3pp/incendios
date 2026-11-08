@@ -1,0 +1,16 @@
+OK   rothermel1972          10.2737/INT-RP-115                     unpaywall=False (closed) url_ok=True
+OK   andrews2018            10.2737/RMRS-GTR-371                   unpaywall=True (gold) url_ok=False
+OK   scott2005              10.2737/RMRS-GTR-153                   unpaywall=False (closed) url_ok=True
+OK   finney1998             10.2737/RMRS-RP-4                      unpaywall=False (closed) url_ok=True
+OK   anderson1983           10.5962/bhl.title.69035                unpaywall=False (closed) url_ok=True
+OK   morvan2022             10.5802/crmeca.133                     unpaywall=True (gold) url_ok=True
+OK   sullivan2009a          10.1071/WF06143                        unpaywall=True (bronze) url_ok=False
+OK   mandel2011             10.5194/gmd-4-591-2011                 unpaywall=True (gold) url_ok=True
+OK   karakonstantis2026a    10.3390/fire9030108                    unpaywall=True (gold) url_ok=False
+OK   karakonstantis2026b    10.3390/info17030289                   unpaywall=True (gold) url_ok=False
+OK   andrianarivony2024     10.3390/fire7120482                    unpaywall=True (gold) url_ok=False
+OK   hayajneh2025           10.3390/fire8060217                    unpaywall=True (gold) url_ok=False
+OK   einstein1905           10.1002/andp.19053220806               unpaywall=True (bronze) url_ok=False
+OK   newman2000             10.48550/arXiv.cond-mat/0005264        unpaywall=False (arxiv) url_ok=True
+
+14 referencias, 0 sin acceso abierto verificado.

@@ -1,0 +1,463 @@
+{
+  "langevin": {
+    "pendiente_msd": 1.011424177388424,
+    "msd_t10": 0.4154648720740812,
+    "teorica_t10": 0.4
+  },
+  "escenario_base": {
+    "burned_cells": 8452.0,
+    "burned_area_m2": 211300.0,
+    "burned_fraction": 0.12896728515625,
+    "ros_m_s": 1.0796753639338261,
+    "ros_m_min": 64.78052183602956,
+    "ros_r2": 0.9581672672529459,
+    "ros_fit_m_s": 0.6063925719451299,
+    "ros_fit_r2": 0.8412074619476879,
+    "perimeter_m": 5290.0,
+    "length_breadth": 1.8456341240242728,
+    "eccentricity": 0.8404950667288129,
+    "circularity": 0.09488509942481957,
+    "fractal_dimension": 1.818911214368253,
+    "roughness_s": 218.23183675121237,
+    "size": 256.0,
+    "cell_size_m": 5.0,
+    "domain_m": 1280.0,
+    "elevation_min_m": 12.0,
+    "elevation_max_m": 68.0,
+    "elevation_mean_m": 39.30815236575445,
+    "slope_mean": 0.24139736235725698,
+    "slope_max": 0.862214218646988,
+    "burnable_fraction": 0.9520263671875,
+    "moisture_mean": 0.09749243500478016,
+    "moisture_min": 0.028878417589510774,
+    "moisture_max": 0.17919642845976896,
+    "veg_density_mean": 0.7130847182216038,
+    "wind_speed_m_s": 4.0,
+    "wind_direction_deg": 0.0
+  },
+  "comparacion": [
+    {
+      "modelo": "Determinista",
+      "area_media_ha": 10.2775,
+      "area_std_ha": 0.0,
+      "cv_area": 0.0,
+      "ros_medio_m_min": 42.237782537041035,
+      "ros_std_m_min": 0.0,
+      "lb_medio": 1.8683829440543571,
+      "fd_media": 1.7857639572584174,
+      "rugosidad_s": 135.91078934626674
+    },
+    {
+      "modelo": "Estocástico (ensemble)",
+      "area_media_ha": 24.885234375,
+      "area_std_ha": 0.7663682575626397,
+      "cv_area": 0.030796103665896846,
+      "ros_medio_m_min": 35.337930486890635,
+      "ros_std_m_min": 1.4371553138502473,
+      "lb_medio": 1.3372159012325877,
+      "fd_media": 1.8213847276786646,
+      "rugosidad_s": 124.42166991688441
+    }
+  ],
+  "mejora_estocastica": [
+    {
+      "viento_m_s": 0.0,
+      "area_det_celdas": 638.0,
+      "area_estoc_celdas": 1296.5,
+      "area_estoc_std_celdas": 193.9543392509838,
+      "cociente": 2.032131661442006
+    },
+    {
+      "viento_m_s": 1.0,
+      "area_det_celdas": 677.0,
+      "area_estoc_celdas": 1408.875,
+      "area_estoc_std_celdas": 221.58934831285163,
+      "cociente": 2.081056129985229
+    },
+    {
+      "viento_m_s": 2.0,
+      "area_det_celdas": 698.0,
+      "area_estoc_celdas": 1636.25,
+      "area_estoc_std_celdas": 242.21640265325905,
+      "cociente": 2.34419770773639
+    },
+    {
+      "viento_m_s": 3.0,
+      "area_det_celdas": 710.0,
+      "area_estoc_celdas": 1752.5,
+      "area_estoc_std_celdas": 245.70307283385773,
+      "cociente": 2.4683098591549295
+    },
+    {
+      "viento_m_s": 4.0,
+      "area_det_celdas": 727.0,
+      "area_estoc_celdas": 1847.0,
+      "area_estoc_std_celdas": 237.7135130481948,
+      "cociente": 2.5405777166437415
+    }
+  ],
+  "viento": [
+    {
+      "viento_m_s": 0.0,
+      "ros_m_min": 2.395619438740587,
+      "ros_m_s": 0.03992699064567645,
+      "ros_r2": 0.9847818706762206,
+      "ros_ajuste_m_min": 2.188202068215402,
+      "area_ha": 0.4825,
+      "lb": 1.0,
+      "fd": 1.7851021152104762,
+      "head_m": 35.0
+    },
+    {
+      "viento_m_s": 1.0,
+      "ros_m_min": 3.6806805169311305,
+      "ros_m_s": 0.06134467528218551,
+      "ros_r2": 0.9922039029654072,
+      "ros_ajuste_m_min": 3.4379698304563613,
+      "area_ha": 0.6425,
+      "lb": 1.1756262130207287,
+      "fd": 1.7730964652782892,
+      "head_m": 55.0
+    },
+    {
+      "viento_m_s": 2.0,
+      "ros_m_min": 6.098047030689518,
+      "ros_m_s": 0.10163411717815864,
+      "ros_r2": 0.99503911808834,
+      "ros_ajuste_m_min": 5.840565120484711,
+      "area_ha": 0.965,
+      "lb": 1.4983088006858631,
+      "fd": 1.8191303634406013,
+      "head_m": 90.0
+    },
+    {
+      "viento_m_s": 3.0,
+      "ros_m_min": 9.268220097260468,
+      "ros_m_s": 0.15447033495434112,
+      "ros_r2": 0.996277814349086,
+      "ros_ajuste_m_min": 9.041473804668664,
+      "area_ha": 1.36,
+      "lb": 2.027169195704768,
+      "fd": 1.8305990432741177,
+      "head_m": 140.0
+    },
+    {
+      "viento_m_s": 4.0,
+      "ros_m_min": 12.984015814702866,
+      "ros_m_s": 0.2164002635783811,
+      "ros_r2": 0.9972973833762949,
+      "ros_ajuste_m_min": 12.571478730021,
+      "area_ha": 1.9775,
+      "lb": 2.4007083905924844,
+      "fd": 1.8847764446726079,
+      "head_m": 195.0
+    },
+    {
+      "viento_m_s": 5.0,
+      "ros_m_min": 17.07954805048667,
+      "ros_m_s": 0.28465913417477784,
+      "ros_r2": 0.9975921886154455,
+      "ros_ajuste_m_min": 16.65849121949764,
+      "area_ha": 2.6075,
+      "lb": 2.9733154671119864,
+      "fd": 1.8988523760119405,
+      "head_m": 255.0
+    },
+    {
+      "viento_m_s": 6.0,
+      "ros_m_min": 21.797209409671957,
+      "ros_m_s": 0.3632868234945326,
+      "ros_r2": 0.9979062621274343,
+      "ros_ajuste_m_min": 21.3949673602873,
+      "area_ha": 3.4875,
+      "lb": 3.391399057432178,
+      "fd": 1.8728048442877254,
+      "head_m": 325.0
+    },
+    {
+      "viento_m_s": 7.0,
+      "ros_m_min": 27.216689369325437,
+      "ros_m_s": 0.4536114894887573,
+      "ros_r2": 0.9985780974882695,
+      "ros_ajuste_m_min": 26.659448944777665,
+      "area_ha": 4.425,
+      "lb": 3.899319379119734,
+      "fd": 1.900424479099094,
+      "head_m": 400.0
+    },
+    {
+      "viento_m_s": 8.0,
+      "ros_m_min": 31.980861005230047,
+      "ros_m_s": 0.5330143500871675,
+      "ros_r2": 0.9986691558635684,
+      "ros_ajuste_m_min": 31.164545404089576,
+      "area_ha": 5.4775,
+      "lb": 4.381515395391638,
+      "fd": 1.9342775392471692,
+      "head_m": 475.0
+    }
+  ],
+  "humedad": [
+    {
+      "humedad": 0.03,
+      "ros_m_min": 3.814490032024948,
+      "area_ha": 2.0225,
+      "lb": 1.0,
+      "head_m": 75.0
+    },
+    {
+      "humedad": 0.05,
+      "ros_m_min": 2.950485488975913,
+      "area_ha": 1.2625,
+      "lb": 1.0,
+      "head_m": 60.0
+    },
+    {
+      "humedad": 0.07,
+      "ros_m_min": 2.3955283470854405,
+      "area_ha": 0.8525,
+      "lb": 1.0,
+      "head_m": 50.0
+    },
+    {
+      "humedad": 0.09,
+      "ros_m_min": 2.036067481093659,
+      "area_ha": 0.6025,
+      "lb": 1.0,
+      "head_m": 40.0
+    },
+    {
+      "humedad": 0.11,
+      "ros_m_min": 1.7972681524083385,
+      "area_ha": 0.4825,
+      "lb": 1.0,
+      "head_m": 35.0
+    },
+    {
+      "humedad": 0.13,
+      "ros_m_min": 1.613602937286396,
+      "area_ha": 0.3825,
+      "lb": 1.0,
+      "head_m": 35.0
+    },
+    {
+      "humedad": 0.15,
+      "ros_m_min": 1.4188422247446082,
+      "area_ha": 0.3225,
+      "lb": 1.0,
+      "head_m": 30.0
+    },
+    {
+      "humedad": 0.18,
+      "ros_m_min": 1.0259917920656634,
+      "area_ha": 0.1725,
+      "lb": 1.0,
+      "head_m": 20.0
+    },
+    {
+      "humedad": 0.21,
+      "ros_m_min": 5.845990595284602e-17,
+      "area_ha": 0.0225,
+      "lb": 1.0,
+      "head_m": 5.0
+    },
+    {
+      "humedad": 0.24,
+      "ros_m_min": 5.845990595284602e-17,
+      "area_ha": 0.0225,
+      "lb": 1.0,
+      "head_m": 5.0
+    }
+  ],
+  "pendiente": [
+    {
+      "pendiente": 0.0,
+      "pendiente_grados": 0.0,
+      "ros_m_min": 2.395619438740587,
+      "area_ha": 0.4825,
+      "lb": 1.0,
+      "head_m": 35.0
+    },
+    {
+      "pendiente": 0.1,
+      "pendiente_grados": 5.710593137499643,
+      "ros_m_min": 2.789400278940028,
+      "area_ha": 0.54,
+      "lb": 1.024672672768101,
+      "head_m": 40.0
+    },
+    {
+      "pendiente": 0.2,
+      "pendiente_grados": 11.309932474020215,
+      "ros_m_min": 3.9659648110758585,
+      "area_ha": 0.71,
+      "lb": 1.1459518075832145,
+      "head_m": 60.0
+    },
+    {
+      "pendiente": 0.3,
+      "pendiente_grados": 16.69924423399362,
+      "ros_m_min": 5.9160157760420695,
+      "area_ha": 1.085,
+      "lb": 1.2235960400699235,
+      "head_m": 90.0
+    },
+    {
+      "pendiente": 0.4,
+      "pendiente_grados": 21.80140948635181,
+      "ros_m_min": 8.614215664619874,
+      "area_ha": 1.685,
+      "lb": 1.3527846045718013,
+      "head_m": 130.0
+    },
+    {
+      "pendiente": 0.5,
+      "pendiente_grados": 26.56505117707799,
+      "ros_m_min": 12.035060119114506,
+      "area_ha": 2.59,
+      "lb": 1.4663307197358524,
+      "head_m": 180.0
+    },
+    {
+      "pendiente": 0.6,
+      "pendiente_grados": 30.96375653207352,
+      "ros_m_min": 16.353780444224387,
+      "area_ha": 3.9375,
+      "lb": 1.581972354027869,
+      "head_m": 245.0
+    }
+  ],
+  "percolacion_umbrales": {
+    "Von Neumann (4)": 0.590657003443178,
+    "Moore (8)": 0.408381243040549
+  },
+  "convergencia_espacial": [
+    {
+      "celda_m": 10.0,
+      "n": 64,
+      "ros_m_min": 12.499999999999996,
+      "area_ha": 8.94,
+      "lb": 4.581022460740963,
+      "error_rel": 0.08333333333333422,
+      "orden": NaN
+    },
+    {
+      "celda_m": 5.0,
+      "n": 128,
+      "ros_m_min": 13.043478260869566,
+      "area_ha": 8.95,
+      "lb": 4.573922679915247,
+      "error_rel": 0.043478260869565785,
+      "orden": 0.9385994553358531
+    },
+    {
+      "celda_m": 2.5,
+      "n": 256,
+      "ros_m_min": 13.043478260869568,
+      "area_ha": 8.63875,
+      "lb": 4.741488380214652,
+      "error_rel": 0.04347826086956565,
+      "orden": 4.484797105340878e-15
+    },
+    {
+      "celda_m": 1.25,
+      "n": 512,
+      "ros_m_min": 13.636363636363646,
+      "area_ha": 8.784375,
+      "lb": 4.629555246425418,
+      "error_rel": 0.0,
+      "orden": NaN
+    }
+  ],
+  "convergencia_temporal": [
+    {
+      "dt_s": 2.0,
+      "ros_m_min": 12.499999999999998,
+      "area_ha": 8.635,
+      "lb": 4.743622395528293,
+      "error_rel": 0.052083333333333294
+    },
+    {
+      "dt_s": 1.0,
+      "ros_m_min": 13.043478260869566,
+      "area_ha": 8.95,
+      "lb": 4.573922679915247,
+      "error_rel": 0.010869565217391039
+    },
+    {
+      "dt_s": 0.5,
+      "ros_m_min": 13.043478260869566,
+      "area_ha": 8.95,
+      "lb": 4.573922679915247,
+      "error_rel": 0.010869565217391039
+    },
+    {
+      "dt_s": 0.25,
+      "ros_m_min": 13.186813186813184,
+      "area_ha": 8.955,
+      "lb": 4.574004187509724,
+      "error_rel": 0.0
+    },
+    {
+      "dt_s": 0.125,
+      "ros_m_min": 13.186813186813184,
+      "area_ha": 8.955,
+      "lb": 4.574004187509724,
+      "error_rel": 0.0
+    }
+  ],
+  "sensibilidad": [
+    {
+      "parametro": "carga",
+      "elasticidad": -0.19486689980601404
+    },
+    {
+      "parametro": "humedad",
+      "elasticidad": -0.48036403793985044
+    },
+    {
+      "parametro": "pendiente",
+      "elasticidad": 0.7737569217386544
+    },
+    {
+      "parametro": "viento",
+      "elasticidad": 1.2177799932382196
+    }
+  ],
+  "casos_reales": [
+    {
+      "caso": "Incendio forestal de Acos (Mayuhuilca)",
+      "pais": "Perú",
+      "inicio": "2025-09-11 12:24",
+      "area_observada_ha": 296.9497745566,
+      "area_oficial_ha": 300.0,
+      "area_simulada_ha": 307.5815589164,
+      "error_area_rel": 0.0358033084,
+      "iou": null,
+      "ros_m_min": 10.3554878448,
+      "lb": 1.355098998,
+      "fd": 1.8068360414,
+      "celda_m": 25.9402726334,
+      "dt_s": 20.0,
+      "t_end_dias": 4.0,
+      "fuente": "INDECI, Reporte Complementario N.º 9686 (15/09/2025)"
+    },
+    {
+      "caso": "Little Giant Fire",
+      "pais": "Estados Unidos",
+      "inicio": "2026-07-15 00:00",
+      "area_observada_ha": 1252.7499547811,
+      "area_oficial_ha": 69975.0037710029,
+      "area_simulada_ha": 1730.9771920344,
+      "error_area_rel": 0.3817419713,
+      "iou": 0.6197442884,
+      "ros_m_min": 0.0970987062,
+      "lb": 1.1121654417,
+      "fd": 1.9730567333,
+      "celda_m": 27.7885965682,
+      "dt_s": 20.0,
+      "t_end_dias": 4.0,
+      "fuente": "WFIGS/NIFC, perímetro oficial 2026"
+    }
+  ]
+}

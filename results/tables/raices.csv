@@ -1,0 +1,5 @@
+metodo,iteraciones,raiz,error_abs,error_final,orden_observado,convergio
+Bisección,39,0.17616184,2.2620794e-13,2.2194052e-14,-0.01920797,True
+Falsa posición,7,0.17616184,3.4139358e-15,1.7173762e-16,0.93793218,True
+Newton-Raphson,5,0.17616184,1.7486013e-15,1.0408341e-17,0.92424584,True
+Secante,6,0.17616184,1.6986412e-13,1.6703652e-14,1.5700404,True

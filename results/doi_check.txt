@@ -1,0 +1,16 @@
+OK   200  rothermel1972          10.2737/INT-RP-115  -> https://research.fs.usda.gov/treesearch/32533
+OK   200  andrews2018            10.2737/RMRS-GTR-371  -> https://research.fs.usda.gov/treesearch/55928
+OK   200  scott2005              10.2737/RMRS-GTR-153  -> https://research.fs.usda.gov/treesearch/9521
+OK   200  finney1998             10.2737/RMRS-RP-4  -> https://research.fs.usda.gov/treesearch/4617
+WARN 403  anderson1983           10.5962/bhl.title.69035
+OK   200  morvan2022             10.5802/crmeca.133  -> https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.5802/crmeca.133/
+WARN 403  sullivan2009a          10.1071/WF06143
+OK   200  mandel2011             10.5194/gmd-4-591-2011  -> https://gmd.copernicus.org/articles/4/591/2011/
+WARN 403  karakonstantis2026a    10.3390/fire9030108
+WARN 403  karakonstantis2026b    10.3390/info17030289
+WARN 403  andrianarivony2024     10.3390/fire7120482
+WARN 403  hayajneh2025           10.3390/fire8060217
+WARN 403  einstein1905           10.1002/andp.19053220806
+OK   200  newman2000             10.48550/arXiv.cond-mat/0005264  -> https://arxiv.org/abs/cond-mat/0005264
+
+14 DOI revisados, 0 fallos de resolución.
